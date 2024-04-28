@@ -1,0 +1,131 @@
+/* Basic Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: white;
+    padding: 1px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: px;
+    margin-left:100px ;
+    margin-top: 50px;
+
+  }
+  
+  .logo {
+    font-size: 1.2rem;
+    color: #000;
+    text-decoration: none;
+  }
+
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    position: relative;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: small;
+    margin-right: 10px;
+  }
+  
+  nav a:hover {
+    color: #f10606;
+  }
+  
+  /* Responsive Menu Toggle */
+  .menu-toggle {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .menu-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .menu-toggle span:nth-child(2) {
+    transform: translateY(-5px);
+  }
+  
+  /* Line Animation on Toggle */
+  .menu-toggle.active span:nth-child(1) {
+    transform: rotate(45deg) translateX(8px);
+  }
+  
+  .menu-toggle.active span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .menu-toggle.active span:nth-child(3) {
+    transform: rotate(-45deg) translateX(-8px);
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 768px) {
+    nav {
+      display: none;
+    }
+  
+    .menu-toggle {
+      display: block;
+  }
+  }
+.img{
+    content: normal;
+    justify-content: flex-start;
+    margin-bottom: 10%;
+    position: relative;
+    
+}  
+.navigation{
+    margin-bottom: 10%;
+    font-size: small;
+    margin-right: 100px;
+
+}
+.div{
+    font-size: small;
+    font-weight: bold;
+    color: aliceblue;
+    width: 100px;
+    border-style: solid;
+    border-color: #f10606;
+    border-width: 15px;
+    background-color: #f10606;
+    justify-content: right;
+    justify-items: center;
+    align-items: flex-end;
+}
+.h1{
+color: red;
+size: 120px;
+display: flex;
+}
+.header{
+ size: 10px;
+}
+.img{
+    display: flex;
+}
